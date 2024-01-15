@@ -86,6 +86,22 @@
     .pricing-card .box{
         width: 100%;
     }
+    .place-view-container{
+        flex-direction: column;
+    }
+    ..view-desc{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .view-btn{
+        text-align: center;
+    }
+    .view-img img{
+        width: 100%;
+        text-align: center;
+    }
+
 
 
 }
