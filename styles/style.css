@@ -207,3 +207,81 @@ nav{
 }
 
 /* ----------------destination section hare hare------------------ */
+
+/* ===============choose us section start hare================== */
+
+.card-desc{
+    text-align: center;
+    margin-top: 100px;
+}
+.card-desc h2{
+    color:#131318 ;
+    font-size: 40px;
+    font-weight:800 ;
+    margin-bottom:25px ;
+}
+.card-desc p{
+    color:#131318 ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-bottom:25px ;
+    width: 400px;
+}
+
+/* ===============choose us section ends hare================== */
+
+/* ============choose us section style start hare================= */
+
+.card-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 80px;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.card{
+    width: 50%;
+    padding: 20px;
+    border-radius: 16px;
+    background-color:rgba(251, 180, 99, 0.11) ;
+}
+.unic-style-2{
+    background-color: rgba(95, 185, 59, 0.075);
+}
+
+.card h3{
+    color:#131318;
+    font-size:24px ;
+    font-weight:800 ;
+    margin-top: 32px;
+}
+.card p{
+    color:#5A5A5D; ;
+    font-size:16px ;
+    font-weight:400 ;
+    margin: 16px 0px;
+    line-height: 26px;
+}
+.second-card-section{
+    margin: 0 auto;
+    background-color:  rgba(216, 167, 33, 0.281);
+}
+.second-card-section h3{
+    color:#131318;
+    font-size:24px ;
+    font-weight:800 ;
+    margin-top: 32px;
+}
+.second-card-section p{
+    color:#5A5A5D; ;
+    font-size:16px ;
+    font-weight:400 ;
+    margin: 16px 0px;
+    line-height: 26px;
+}
+
+
+/* ============choose us section style ends hare================= */

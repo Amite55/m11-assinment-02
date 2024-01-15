@@ -57,6 +57,26 @@
         width: 100%;
         
     }
+    .card-section{
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .choose-us-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .second-card-section{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
 
 
 }
