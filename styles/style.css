@@ -1,0 +1,209 @@
+/* ------------common css style start hare --------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.bar{
+    visibility: hidden;
+}
+.common-btn{
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    background-color: #FF5400;
+    margin: 0 25px;
+}
+/* ------------common css style ends hare --------------- */
+
+/* ==============navbar section start hare ================= */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.nav-title{
+    display: flex;
+}
+.nav-title img{
+    width: 70px;
+    height: 70px;
+}
+.nav-title h2{
+    color:#131318;
+    font-size: 45px;
+    font-weight:800 ;
+}
+.nav-title span{
+    color: #FF5400 ;
+}
+
+.nav-menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left:70px;
+
+}
+.nav-menu li{
+    margin-left: 10px;
+    padding: 5px 8px;
+    color:#424247 ;
+    font-size:18px ;
+    font-weight: 400;
+}
+.nav-menu li:hover{
+    color: #FF5400;
+    transition: all linear 0.3s;
+}
+
+
+/* ==============navbar section ends hare ================= */
+
+/* -----------------banner part start hare --------------------- */
+
+.banner-section{
+    background-image: url("../Images/Group13\(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.banner-section h1{
+    padding-top: 100px;
+    color:#fff ;
+    font-size:64px ;
+    font-weight:800 ;
+}
+.banner-section p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+.banner-input{
+    background-color: rgba(255, 255, 255, 0.30);
+    width: 800px;
+    height: 60px;
+    margin: 0 auto;
+    padding-top: 5px;
+    border-radius: 7px;
+}
+.banner-input input{
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0px 20px;
+    
+}
+.banner-input button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    background-color: #FF5400;
+    margin: 0 25px;
+}
+
+/* -----------------banner part ends hare --------------------- */
+
+/* ============toure section start hare ===================== */
+
+.toure-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
+}
+.toure-container h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.toure-container p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0;
+}
+.toure-desc li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 20px;
+    list-style-type: circle;
+}
+
+/* ============toure section ends hare ===================== */
+
+
+
+/* ----------------destination section start hare------------------ */
+
+.destination-title{
+    text-align: center;
+    margin-top: 100px;
+}
+.destination-title h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.destination-title p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    margin: 8px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.maldives{
+    width: 48%;
+    position: relative;
+}
+.indonasia{
+    width: 48%;
+}
+.srilanka{
+    width: 28%;
+}
+.america{
+    width: 35%;
+}
+.kashmir{
+    width:28%;
+    height: 220px;
+}
+.bangladehsh{
+    width: 38%;
+}
+.bandarban{
+    width: 58%;
+    
+}
+
+/* ----------------destination section hare hare------------------ */
