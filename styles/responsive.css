@@ -77,6 +77,15 @@
         margin: 0 auto;
         margin-top: 10px;
     }
+    .price-card-container h4{
+        text-align: center;
+    }
+    .pricing-card{
+        flex-direction: column;
+    }
+    .pricing-card .box{
+        width: 100%;
+    }
 
 
 }
