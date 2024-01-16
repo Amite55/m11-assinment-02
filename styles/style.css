@@ -364,6 +364,7 @@ nav{
     display: flex;
     margin-top: 100px;
     gap: 20px;
+    position: relative;
 }
 .register-form{
     width: 45%;
@@ -400,7 +401,74 @@ hr{
 }
 .save-img{
     width: 45%;
+    
 
+}
+.save-img img{
+    width: 530px;
+    height: 500px;
+}
+.save-as{
+    width: 300px;
+    height: 80px;
+    background-color: #FF5400;
+    color: #fff;
+    text-align: center;
+    border-radius: 16px;
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+    
+}
+.save-as h6{
+    font-size:18px ;
+    font-weight:400 ;
+    margin-top: 10px;
+}
+.save-as h5{
+    font-size:25px ;
+    font-weight:800 ;
+    margin-top: px;
 }
 
 /* ------------register section ends hare---------------- */
+
+/* =============footer section styles start hare =============== */
+
+footer{
+    margin: 200px 0;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo h1{
+    color:#131318;
+    font-size: 45px;
+    font-weight:800
+}
+.logo span{
+    
+  color: #FF5400 ;
+
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+.social-links{
+    margin: 100px 0;
+}
+.foot-hr{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.social-links i{
+    margin: 0 20px;
+    font-size: 36px;
+    
+}
+
+/* =============footer section styles ends hare =============== */
