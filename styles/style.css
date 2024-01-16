@@ -357,3 +357,50 @@ nav{
 }
 
 /* ===========perfect place section ends hare================ */
+
+/* ------------register section start hare---------------- */
+
+.register-section{
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+}
+.register-form{
+    width: 45%;
+    padding:0px 30px;
+    background-color: #babac960;
+    border-radius: 10px;
+    
+}
+.register-form h1{
+    color:#131318 ;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom:16px ;
+    margin-top: 15px;
+}
+.register-form p{
+    color:#5A5A5D ;
+    font-size:16px ;
+    font-weight:400 ;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    margin-bottom: 5px;
+}
+.login-form input{
+    margin: 15px 0;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+.save-img{
+    width: 45%;
+
+}
+
+/* ------------register section ends hare---------------- */

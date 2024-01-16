@@ -29,7 +29,6 @@
         grid-template-columns: repeat(1, 1fr);
         height: 400px;
         width: 350px;
-      
     }
     .banner-input input{
         width: 300px;
@@ -89,7 +88,7 @@
     .place-view-container{
         flex-direction: column;
     }
-    ..view-desc{
+    .view-desc{
         width: 100%;
         margin: 0 auto;
         text-align: center;
@@ -100,6 +99,15 @@
     .view-img img{
         width: 100%;
         text-align: center;
+    }
+    .register-section{
+        flex-direction: column;
+    }
+    .register-form{
+        width: 100%;
+    }
+    .save-img {
+        width: 100%;
     }
 
 
